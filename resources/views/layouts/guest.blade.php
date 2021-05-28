@@ -14,6 +14,7 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="@version('css/app.css')">
+  <livewire:styles />
 
   <!-- Scripts -->
   <script src="@version('/js/app.js')" defer></script>
@@ -23,6 +24,7 @@
   <div class="font-sans text-gray-900 antialiased">
     {{ $slot }}
   </div>
+  <livewire:scripts />
 </body>
 
 </html>
