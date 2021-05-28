@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,6 +24,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        // Asset versioning directive
+        Blade::directive('version', function($path) {
+            return "<?php echo config('assets.version') ? asset({$path}) . '?v=' . config('assets.version') : asset({$path}); ?>";
+        });
     }
 }
