@@ -1,5 +1,8 @@
+# Swatchr
 
-# Tall Stack Demo
+Sophisticated color palette genration using the latest in AI powered blockchain technology.  Unleash the power of swatches on demand. (Just kidding...)
+
+## Tall Stack Demo
 
 This repo is demonstration of a [TALL Stack](https://tallstack.dev/) application:
 
@@ -8,10 +11,28 @@ This repo is demonstration of a [TALL Stack](https://tallstack.dev/) application
 - [Laravel](https://laravel.com/) A 'batteries included' framework for building PHP applications. An excellent way to work efficiently with PHP and get things done.
 - [Livewire](https://laravel-livewire.com/) A tool for creating rich interactive application components without writing custom javascript. Similar to Phoenix LiveView.
 
-# Asset Pipeline
+## Asset Pipeline
 
 This project does not make use Laravel Mix to manage the front end assets.  [Read more about this configuraton with esbuild and postcss](https://stagerightlabs.com/blog/you-might-not-need-laravel-mix).
 
-# Credits
+## Local Development
 
-- [Nord Theme](https://www.nordtheme.com/)
+You can run this project locally with [Laravel Sail](https://laravel.com/docs/8.x/sail).
+
+Clone the repo to your local machine, then install the dependencies:
+
+```
+$ WWWUSER=${WWWUSER:-$UID} docker-compose run --rm laravel.test composer install
+$ WWWUSER=${WWWUSER:-$UID} docker-compose run --rm laravel.test npm install
+$ WWWUSER=${WWWUSER:-$UID} docker-compose run --rm laravel.test npm run build
+```
+
+Spin up the service with Sail:
+
+```
+$ ./vendor/bin/sail up -d
+```
+
+You should now be able to view the service in your browser: [http://localhost/demo](http://localhost/demo)
+
+If you are comfortable with Docker you can also use docker compose directly.
