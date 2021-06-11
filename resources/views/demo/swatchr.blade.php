@@ -9,7 +9,7 @@
           <div class="text-center">
             <x-heroicon-o-color-swatch class="w-16 h-16 mb-4 mx-auto text-purple-600"/>
             <h3 class="text-xl p-2 text-purple-400">Sophisticated Swatch Generation</h3>
-            <p class="text-sm">We use sophisticated AI algorithms based on blockchain technology to meet your swatch needs.</p>
+            <p class="text-sm">We use advanced AI algorithms based on blockchain technology to meet your swatch needs.</p>
           </div>
           <div class="text-center">
             <x-heroicon-o-globe-alt class="w-16 h-16 mb-4 mx-auto text-blue-500"/>
