@@ -17,7 +17,7 @@ This project does not make use Laravel Mix to manage the front end assets.  [Rea
 
 ## Local Development
 
-You can run this project locally with [Laravel Sail](https://laravel.com/docs/8.x/sail).
+You can run this project locally with [Laravel Sail](https://laravel.com/docs/8.x/sail), which is built on top of docker and docker-compose.
 
 Clone the repo to your local machine, then install the dependencies:
 
