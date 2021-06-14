@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::redirect('/', 'demo');
 Route::get('/demo', LivewireDemo::class);
+
+Route::view('decks/livewire', 'decks.livewire');
