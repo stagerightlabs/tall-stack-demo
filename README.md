@@ -11,6 +11,12 @@ This repo is demonstration of a [TALL Stack](https://tallstack.dev/) application
 - [Laravel](https://laravel.com/) A 'batteries included' framework for building PHP applications. An excellent way to work efficiently with PHP and get things done.
 - [Livewire](https://laravel-livewire.com/) A tool for creating rich interactive application components without writing custom javascript. Similar to Phoenix LiveView.
 
+## Decks
+
+You can view the presentation slides here:
+
+- [Livewire in Action](https://github.com/stagerightlabs/tall-stack-demo/blob/main/resources/views/decks/livewire.blade.php)
+
 ## Asset Pipeline
 
 This project does not make use Laravel Mix to manage the front end assets.  [Read more about this configuraton with esbuild and postcss](https://stagerightlabs.com/blog/you-might-not-need-laravel-mix).
