@@ -18,3 +18,4 @@ Route::redirect('/', 'demo');
 Route::get('/demo', LivewireDemo::class);
 
 Route::view('decks/livewire', 'decks.livewire');
+Route::view('decks/alpine', 'decks.alpine');
